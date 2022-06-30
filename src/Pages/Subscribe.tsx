@@ -45,7 +45,7 @@ export function Subscribe(){
                     </div>
                 </div>
             </div>
-            <Img src={"../src/assets/codeMockup.png"} className="mt-10" />
+            <Img src={"/src/assets/codeMockup.png"} className="mt-10" />
         </div>
     )
 }
