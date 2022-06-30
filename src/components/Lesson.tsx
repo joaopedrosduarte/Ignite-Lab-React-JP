@@ -57,7 +57,7 @@ export function Lesson(props : LessonsProps){
                                 <span className="text-gray-300">
                                         {DateFormatted}
                                 </span>
-                                <div className={`border-gray-500 border rounded p-4 mt-2 group-hover:border-red-800 transition-colors ${isActiveLesson ? ('bg-green-500 border-green-500') : ''}`}>
+                                <div className={`border-gray-500 border rounded p-4 mt-2 group-hover:border-orange-500 transition-colors ${isActiveLesson ? ('bg-green-500 border-green-500') : ''}`}>
                                         <header className="flex itens-center justify-between">
                                                 {isLessonAvaiable ? (
                                                         <span className={`text-sm font-medium flex items-center gap-2 ${isActiveLesson ? 'text-white' : 'text-blue-500'}`}>
