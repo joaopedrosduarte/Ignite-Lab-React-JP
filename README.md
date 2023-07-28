@@ -6,7 +6,7 @@ Here you will find a full web aplication made it on base in ReactJS library, wit
 If you want, this is the link to the application : https://ignite-lab-react-jp.vercel.app 
 Go check to see the results :wink:
 
-At time im having some issues on loggin page, but will solve this problem on the nexts commits, to avoid this bug is just dont put nothing on the inputs filds and click in the button to subscribe and thats it.
+At time im having some issues on loggin page, but will solve this problem on the nexts commits, to avoid this bug just dont answer the login input filds and click in the button to subscribe.
 
-Some nexts steps is make loddign page, screen to choce lessons and some other little bugs to solve.
-Any suggestions just send me a message on some social media if you can find me
+Some nexts steps is make a loadign page, screen to choce lessons and some other little bugs to solve.
+Any suggestions just send me a message ;).
