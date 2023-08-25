@@ -1,5 +1,5 @@
 query GetLessons {
-    lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
+    lessons(orderBy: availableAt_ASC, stage: PUBLISHED, limit: 5) {
         id
         slug
         title
