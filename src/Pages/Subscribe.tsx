@@ -37,8 +37,8 @@ export function Subscribe(){
                     <div className="p-8 bg-gray-700 border border-gray-700 rounded">
                         <strong className="text-2xl mb-6 block">Inscreva-se gratuitamente</strong>
                         <form action="" onSubmit={handleSubscriber} className="flex flex-col w-full gap-2">
-                            <input type="text" placeholder="Seu nome completo" onChange={ e => setName(e.target.value)} className="bg-gray-900 rounded px-5 h-14"/>
-                            <input type="email" placeholder="Digite seu E-mail" onChange={ e => setEmail(e.target.value)} className="bg-gray-900 rounded px-5 h-14"/>
+                            <input required type="text" placeholder="Seu nome completo" onChange={ e => setName(e.target.value)} className="bg-gray-900 rounded px-5 h-14"/>
+                            <input required type="email" placeholder="Digite seu E-mail" onChange={ e => setEmail(e.target.value)} className="bg-gray-900 rounded px-5 h-14"/>
                             <button type="submit" disabled={loading} className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50">
                                 Garantir minha vaga
                             </button>
